@@ -1,0 +1,291 @@
+/**
+ * Name : Vue Js Contact Form With laravel css3 file
+ * Author : Emad Rashad
+ * Author Email : emadtab97@gmail.com
+ * Description : Custom Style for our contact Form
+ * Date : 09/08/2017
+ */
+
+
+
+
+
+
+/**
+ ********************************************************************************************************************************************************************
+ *--------------------------------------------------------------------- General Style -------------------------------------------------------------------------------
+ ********************************************************************************************************************************************************************
+ */
+
+
+/** start body style **/
+body{
+  background-color: #fff;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "lato";
+}
+/** end body style **/
+
+
+
+/** start p style **/
+p{
+
+  font-weight: 300;
+  text-align: center;
+}
+/** end p style **/
+
+/** start strong style **/
+strong{
+  font-weight: 900;
+}
+/** end strong style **/
+
+/*** section **/
+section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/** end section **/
+
+/*
+  -- Selection start
+*/
+::selection{
+  background: #873fb5;
+  color: #fff;
+}
+::-moz-selection{
+  background: #873fb5;
+  color: #fff;
+}
+::-webkit-selection{
+  background: #873fb5;
+  color: #fff;
+}
+/** selection end **/
+
+
+
+
+
+/*
+  -- Centering trick start
+*/
+.centering{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/** Centering end **/
+
+
+
+/***********************************************************************************************************************************************
+  -- Classes
+***********************************************************************************************************************************************/
+
+
+ .error {
+
+  border-color: red !important ;
+  box-shadow: 1px 1px 10px red  !important ;
+}
+
+.p-error{
+  text-align: left;
+  font-size: 12px;
+  color:red;
+  display: inline-block;
+}
+
+.highlightStrong{
+  color: red; 
+}
+
+
+/***********************************************************************************************************************************************
+  -- End Classes
+***********************************************************************************************************************************************/
+
+
+
+
+
+/***********************************************************************************************************************************************
+  -- intro  Section start
+***********************************************************************************************************************************************/
+
+  #intro{
+
+    height: 400px;
+  }
+  #intro .header{
+   padding: 10px 30px;
+    display: inline-block;
+    border-top: 1px solid #873fb5;;
+    border-bottom:  1px solid #873fb5;;
+
+  }
+  #intro p {
+    margin:0;
+
+  }
+
+
+/***********************************************************************************************************************************************
+  -- intro  Section end
+***********************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+/***********************************************************************************************************************************************
+  -- Contact  Section start
+***********************************************************************************************************************************************/
+
+
+
+#contact h3{
+  border-left: 3px solid #873fb5;
+  padding-left: 10px;
+
+
+}
+
+
+
+.form-control{
+  height: 45px;
+  padding: 15px;
+  font-size: 16px;
+  color: #873fb5;
+  background-color: #f5f5f5;
+  border: 1px solid #d1d1d1;
+  box-shadow: none;
+  font-weight: 300;
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: #873fb5;
+  background-color: #f5f5f5;
+}
+
+.form-control:focus::placeholder{
+  color:#873fb5;
+}
+.form-control:focus::-webkit-placeholder{
+  color:#873fb5;
+}
+.form-control:focus::-moz-placeholder{
+  color:#873fb5;
+}
+
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-button{
+  border: 1px solid #873fb5;
+  background-color: #fff;
+  color: #873fb5;
+  transition: 0.3s ease-In-Out all;
+}
+.form-button:hover ,
+.form-button:active{
+    background-color: #873fb5;
+    color: #fff;
+    border-color: #873fb5;
+    box-shadow: 1px 1px 5px #873fb5 ;
+    transition: 0.3s ease-In-Out all;
+
+}
+
+.google-map{
+  width: 100%;
+  height: 244px;
+  margin-top: 57px;
+}
+
+
+
+/***********************************************************************************************************************************************
+  -- Contact  Section end
+***********************************************************************************************************************************************/
+
+
+
+
+/***********************************************************************************************************************************************
+  -- Footer  Section start
+***********************************************************************************************************************************************/
+
+#footer{
+  /*background: url("http://via.placeholder.com/1300x289") fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  /*height: 400px;*/
+  color: #fff;
+}
+
+#footer .logo{
+  font-size: 47px;
+  font-weight: 100;
+  border-top: 1px solid #fff ;
+  border-bottom: 1px solid #fff;
+  padding-top: 0;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 100px;
+
+  display: inline-block;
+}
+
+
+#footer ul{
+  list-style: none;
+  display: block;
+  padding-left: 0;
+}
+
+#footer ul li{
+  display: inline-block;
+
+}
+#footer ul li a{
+  color: #fff;
+  font-size: 30px;
+  padding-top: 30px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+#footer .copyright{
+  position: absolute;
+  left: 0;
+  bottom: -359px;
+  background-color:#873fb5;
+  width: 100%;
+  padding: 5px 0;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+/***********************************************************************************************************************************************
+  -- Footer  Section end
+***********************************************************************************************************************************************/
