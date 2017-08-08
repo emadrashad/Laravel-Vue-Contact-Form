@@ -13,7 +13,7 @@ You just need to know the basics of laravel framework as well as vue js syntax
 ```
 Example 
 ```
-
+![ezgif com-optimize](https://user-images.githubusercontent.com/16463475/29050717-17078b86-7bde-11e7-8840-17cca462e761.gif)
 
 ## Built With
 
